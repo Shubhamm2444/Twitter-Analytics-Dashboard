@@ -1,0 +1,53 @@
+📊 Twitter Engagement Analysis
+ 📌 Project Overview
+This project analyzes Twitter engagement metrics using Python and various data visualization techniques. It extracts insights from tweet interactions, including likes, retweets, impressions, and engagement rates, to identify patterns in audience behavior.
+
+ 📂 Dataset
+The dataset used is **Tweet.xlsx**, containing:
+- **Tweet text**
+- **Timestamp**
+- **Likes, Retweets, Replies**
+- **Impressions & Engagement Rate**
+- **Clicks (URL, Profile, Hashtags)**
+- **Media Views & Engagements**
+
+🛠️ Tech Stack & Libraries
+- **Python**
+- **Pandas** - Data processing & manipulation
+- **Matplotlib** - Data visualization (bar charts, line charts, pie charts)
+- **Seaborn** - Advanced visualizations (scatter plots)
+
+📊 Key Visualizations
+1. **Top 10% Engagement Rate Tweets** (Bar Chart)
+2. **Proportion of Clicks** (Pie Chart)
+3. **Clicks by Tweet Category** (Clustered Bar Chart)
+4. **Media Engagements vs. Views** (Scatter Plot)
+5. **Top 10 Tweets by Retweets + Likes** (Bar Chart)
+6. **Comparison of Engagements for High Media Views** (Stacked Bar Chart)
+7. **Engagement Rate with/without App Opens** (Bar Chart)
+8. **Media Views vs. Engagements by Day of the Week** (Dual-Axis Bar Chart)
+9. **Trend of Engagement Rate Over Months** (Line Chart)
+
+🚀 How to Run the Project
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/twitter-engagement-analysis.git
+   cd twitter-engagement-analysis
+   ```
+2. Install dependencies:
+   ```sh
+   pip install pandas matplotlib seaborn openpyxl
+   ```
+3. Run the Python script:
+   ```sh
+   python analysis.py
+   ```
+
+🏆 Insights & Findings
+- Tweets with **less than 30 characters** tend to have **higher engagement rates**.
+- Most clicks originate from **profile views & URL clicks** rather than hashtags.
+- Tweets posted on **weekdays (15:00 - 17:00)** show the highest **likes & retweets**.
+- Higher **media views correlate with higher media engagement**.
+
+
+
